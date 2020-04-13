@@ -17,4 +17,4 @@ exit;
 
 3. Upload code to NodeMCU ESP8266.
 
-For video tutorial, checkout:- 
+For video tutorial, checkout:- https://youtu.be/TB7LmR9h-NA
