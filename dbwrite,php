@@ -7,8 +7,8 @@
 
 
     $host = "localhost";		         // host = localhost because database hosted on the same server where PHP files are hosted
-    $dbname = "id13262871_sumodb";              // Database name
-    $username = "id13262871_sumouser";		// Database username
+    $dbname = "sumodb";              // Database name
+    $username = "sumouser";		// Database username
     $password = "Tr[~b>)wwac6Ze~G";	        // Database password
 
 
