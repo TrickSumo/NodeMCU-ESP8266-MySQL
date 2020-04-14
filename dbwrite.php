@@ -1,7 +1,8 @@
 // Code Written by Rishi Tiwari
 // Website:- https://tricksumo.com
 // Reference:- https://www.w3schools.com/php/php_mysql_insert.asp
-
+//
+//
 
 <?php
 
