@@ -56,6 +56,7 @@ delay(30);
 void loop() { 
 
 HTTPClient http;    // http object of clas HTTPClient
+WiFiClient wclient; // wclient object of clas HTTPClient    
 
 
 // Convert integer variables to string
@@ -71,7 +72,7 @@ postData = "sendval=" + sendval + "&sendval2=" + sendval2;
 
 // Update Host URL here:-  
   
-http.begin("http://example.com/dbwrite.php");              // Connect to host where MySQL databse is hosted
+http.begin(wclient, "http://example.com/dbwrite.php");              // Connect to host where MySQL databse is hosted
 http.addHeader("Content-Type", "application/x-www-form-urlencoded");            //Specify content-type header
 
   
